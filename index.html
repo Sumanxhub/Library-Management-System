@@ -8,23 +8,35 @@
   </head>
   <body>
     <div class="container">
-      <div id="sidePanel" class="side-panel">
-        <a href="#">Home</a>
-        <a href="#">Records</a>
-        <a href="#">Profile</a>
-        <a href="#">Settings</a>
+      <div class="sidebar">
+        <div id="sidePanel" class="side-panel">
+          <a href="#">Home</a>
+          <a href="#">Records</a>
+          <a href="#">Profile</a>
+          <a href="#">Settings</a>
+        </div>
       </div>
 
       <div class="main">
         <div class="nav">
-          <div class="search">
-            <input class="sbar" type="search" name="" value="" />
-            <button class="find" type="submit">search</button>
+          <div class="nav-elements">
+            <div class="brand-name">
+              <span> <h4>Library Management System</h4></span>
+            </div>
+            <div class="search">
+              <input
+                type="search"
+                class="search-box"
+                name=""
+                placeholder="Search Books"
+              />
+              <button class="search-button" type="submit">search</button>
+            </div>
+            <div class="link">
+              <a href="#"> <span class="login"> Login </span> </a>
+            </div>
           </div>
-
-          <a href="#"> Login </a>
         </div>
-
         <div class="content"></div>
       </div>
     </div>
