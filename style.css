@@ -166,10 +166,10 @@ body {
   width: 140px;
   height: 160px;
   margin: 5px;
-  /* background-color: slateblue; */
+  background-color: slateblue;
 }
 .book-title {
   width: 140px;
   height: 30px;
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
 }
